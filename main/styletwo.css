@@ -252,13 +252,13 @@ hr {
     margin-top: 55px;
 }
 
-.glav_kat{
+.bread_crumbs{
     display: flex;
     align-items: center;
     gap: 2px;
 }
 
-.glav_kat a{
+.bread_crumbs a{
     color: #95411bba;
     font-weight: 500;
 }
@@ -329,21 +329,21 @@ hr {
 
 /* заголовки */
 
-.zagolovok {
+.catalog__title {
     display: flex;
     flex-direction: column;
 }
 
-.zagolovok .glav_kat p {
+.catalog__title .bread_crumbs p {
     color: #95411bba;
     font-weight: 500;
 }
 
-.zagolovok .title h2 {
+.catalog__title .title h2 {
     margin-left: 0;
 }
 
-.zagolovok .sort p {
+.catalog__title .sort p {
     display: flex;
     justify-content: end;
     color: #95411B;
@@ -352,7 +352,7 @@ hr {
     cursor: pointer;
 }
 
-.zagolovok .sort p span {
+.catalog__title .sort p span {
     color: #95411B;
     font-weight: 400;
 }
